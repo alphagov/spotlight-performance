@@ -57,7 +57,7 @@ do
 	sleep 60
 	echo "Taking a heap dump"
 	kill -s ALRM $PERF_PID
-	if ps a | grep -v grep | grep $ATTACK_PID > /dev/null
+	if `ps cax | grep $ATTACK_PID > /dev/null`
 	then
 		echo "Still attacking"
 	else
@@ -71,7 +71,7 @@ kill -s USR2 $PERF_PID
 while :
 do
 	sleep 5
-	if ps a | grep -v grep | grep $PERF_PID > /dev/null
+	if `ps cax | grep $PERF_PID > /dev/null`
 	then
 		echo "Still winding down"
 	else
