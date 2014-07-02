@@ -1,0 +1,17 @@
+{
+  "name": "spotlight-performance",
+  "version": "0.1.0",
+  "description": "A utility to test the performance of spotlight",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alphagov/spotlight-performance.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Government Digital Service",
+  "license": "MIT",
+  "dependencies": {
+    "performance-harness": "git://github.com/alphagov/node-performance-harness.git"
+  }
+}

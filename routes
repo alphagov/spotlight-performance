@@ -1,0 +1,7 @@
+GET http://localhost:3057/performance/carers-allowance
+GET http://localhost:3057/performance/g-cloud
+GET http://localhost:3057/performance/lasting-power-of-attorney
+GET http://localhost:3057/performance/book-practical-driving-test
+GET http://localhost:3057/performance/tax-disc
+GET http://localhost:3057/performance/pay-register-birth-abroad
+GET http://localhost:3057/performance/practical-driving-test
